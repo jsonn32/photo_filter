@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed:
 2. Run the classifier script:
 
     ```sh
-    python classify_images.py
+    python main.py
     ```
 
 3. The script will process the images and place them into `good_images` and `bad_images` folders based on the classification.
