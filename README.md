@@ -15,7 +15,7 @@ Before you begin, ensure you have the following installed:
 
     ```sh
     git clone https://github.com/jsonn32/photo_filter.git
-    cd house-image-classifier
+    cd photo_filter
     ```
 
 2. Create and activate a virtual environment (optional but recommended):
