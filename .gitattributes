@@ -1,0 +1,22 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Explicitly declare text files we want to always be normalized and converted to native line endings on checkout.
+*.py text
+*.md text
+*.txt text
+*.json text
+*.yml text
+*.yaml text
+*.ipynb text
+
+# Declare files that will always have LF line endings on checkout.
+*.sh text eol=lf
+*.bats text eol=lf
+
+# Binary files should be excluded from line ending normalization.
+*.jpg binary
+*.png binary
+*.gif binary
+*.zip binary
+*.exe binary
